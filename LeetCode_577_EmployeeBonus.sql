@@ -1,0 +1,1 @@
+Select Employee.name,Bonus.bonus from Employee LEFT JOIN Bonus ON Employee.empId=Bonus.empid where Bonus.bonus<1000 OR Bonus.bonus is null;
